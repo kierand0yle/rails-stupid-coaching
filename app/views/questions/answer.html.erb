@@ -1,0 +1,15 @@
+
+<div class="q-card">
+  <h2><%= params[:question] %></h2>
+  <p>- You</p>
+</div>
+
+<div class="q-card" id="coach">
+
+<h2><%= @response %></h2>
+<p>- Your Coach</p>
+</div>
+
+<br>
+
+<p><%= link_to "Back to question", ask_path %></p>
